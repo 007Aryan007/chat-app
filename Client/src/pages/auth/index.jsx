@@ -68,7 +68,7 @@ const Auth = () => {
       );
       if(response.status===201){
         setUserInfo(response.data.user);
-        navigate("/profile");
+        // navigate("/profile");
       }
       console.log(response);
     }

@@ -1,7 +1,7 @@
 import { useAppStore } from "@/store"
 
 const Profile = () => {
-  const {userInfo} = useAppStore();;
+  const {userInfo} = useAppStore();
   return (
     <div>
       profile
